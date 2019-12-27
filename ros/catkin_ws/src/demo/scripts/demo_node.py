@@ -56,9 +56,9 @@ def detect_yellow_line(image):
 
 		#cv2.line(image, (50, 0), (50, 200), color=[0, 255, 0], thickness=3) check
 		image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
-		dir_path = r'/home/maks/ros-task'
+		#dir_path = r'/home/maks/ros-task'
 		#print(dir_path+"/im"+mcr+".jpg")
-		cv2.imwrite(dir_path+"/im"+mcr+".jpg",image)
+		#cv2.imwrite(dir_path+"/im"+mcr+".jpg",image)
 		#print(os.listdir(dir_path))
 
 # from https://gist.github.com/awesomebytes/36581763554006f971edc070dbee4bf5#file-image_topic_opencv_skeleton-py-L56
